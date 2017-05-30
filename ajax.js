@@ -9,7 +9,7 @@
   	//$(".dessert").on("click", function() {
   		var dessertName = $(this).attr("data-name");
 
-  		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + dessertName + "&api_key=dc6zaTOxFJmzC&limit=10&rating=g";
+  		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + dessertName + "&api_key=dc6zaTOxFJmzC&limit=10&rating=g";
 
         $.ajax({
       		url: queryURL,
